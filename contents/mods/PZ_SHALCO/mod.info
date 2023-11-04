@@ -1,0 +1,7 @@
+name=Shelter alcohol
+id=SHALCO
+poster=poster.png
+icon=icon.png
+versionMin=41.56
+require=sapphcooking
+description=Adds shelter alcohol items and recipes.

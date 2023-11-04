@@ -1,0 +1,10 @@
+version=1
+id=
+title=SHELTER ALCOHOL MOD
+
+description=[h1][EN]Adds several varieties of alcohol for the shelter bar.[/h1]
+description=[h1][RU]Добавляет несколько разновидностей алкоголя для бара шелтера.[/h1]
+description=[h1][UK]Додає кілька різновидів алкоголю для бару шелтеру.[/h1]
+
+tags=Build 41;Food;Items
+visibility=public
