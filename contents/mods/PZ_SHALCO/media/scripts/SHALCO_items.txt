@@ -1,0 +1,104 @@
+module SHALCO {
+/*___________________ИМПОРТ_БАЗОВОГО_КЛАССА___________________*/
+    imports
+    {
+        Base, SapphCooking
+    }
+
+    /*
+        бокалы
+            LowballGlass    стакан для крепкого алкоголя
+            CocktailGlass   бокал для коктейлей
+    */
+
+/*___________________ПРЕДМЕТЫ:_АЛКОГОЛЬНЫЕ_НАПИТКИ___________________*/
+    
+    /* ___________________ПЛАЧУЩИЙ_ДРАКОН___________________ */
+        item AlcoholCryingDragon {
+                Type                            = Food,
+                DisplayName                     = Crying Dragon,
+                Icon                            = CryingDragonFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+
+                FatigueChange                   = 5,
+                HungerChange                    = 15,
+                ThirstChange                    = -5,
+                UnhappyChange                   = -5,
+                Calories                        = 100,
+                Carbohydrates                   = 16,
+                Lipids                          = 0,
+                Proteins                        = 0.5,
+                StressChange                    = -5,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholCryingDragon_Hand,
+                WorldStaticModel                = AlcoholCryingDragon_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.LowballGlass,
+                OnEat                           = OnEat_AlcoholCryingDragon
+            }
+        
+        item AlcoholDragonBlood {
+                Type                            = Food,
+                DisplayName                     = Dragon Blood,
+                Icon                            = DragonBloodFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+
+                FatigueChange                   = 5,
+                HungerChange                    = 15,
+                ThirstChange                    = -5,
+                UnhappyChange                   = -5,
+                Calories                        = 120,
+                Carbohydrates                   = 16,
+                Lipids                          = 0,
+                Proteins                        = 0.5,
+                StressChange                    = -15,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholDragonBlood_Hand,
+                WorldStaticModel                = AlcoholDragonBlood_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.LowballGlass,
+                OnEat                           = OnEat_AlcoholDragonBlood
+            }
+        
+        item AlcoholCarrotCocktail {
+                Type                            = Food,
+                DisplayName                     = Carrot Cocktail,
+                Icon                            = CarrotCocktailFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+
+                FatigueChange                   = 5,
+                HungerChange                    = 15,
+                ThirstChange                    = -5,
+                UnhappyChange                   = -5,
+                Calories                        = 120,
+                Carbohydrates                   = 16,
+                Lipids                          = 0,
+                Proteins                        = 0.5,
+                StressChange                    = -15,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholCarrotCocktail_Hand,
+                WorldStaticModel                = AlcoholCarrotCocktail_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholCarrotCocktail
+            }
+
+}

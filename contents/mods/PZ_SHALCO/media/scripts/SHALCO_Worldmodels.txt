@@ -1,0 +1,37 @@
+/*_____ЭТОТ_ФАЙЛ_ИСПОЛЬЗУЕТСЯ_ДЛЯ_СТАТИЧЕСКИХ_МОДЕЛЕЙ_НА_ПОЛУ_____*/
+module SHALCO
+{
+/*___________________ИМПОРТ_БАЗОВОГО_КЛАССА___________________*/
+    imports
+    {
+        Base
+    }
+
+    model AlcoholCryingDragon_Ground
+    {
+        mesh = Worlditems/LowballGlass_Full,
+        texture = Worlditems/CryingDragonFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholDragonBlood_Ground
+    {
+        mesh = Worlditems/LowBallDrink,
+        texture = Worlditems/DragonBloodFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholCarrotCocktail_Ground
+    {
+        mesh = Worlditems/CocktailGlass_Full,
+        texture = Worlditems/CarrotCocktailFull,
+        scale = 0.0045,
+    }
+    
+    model BarmenSecretMagazine_Ground
+    {
+        mesh = Worlditems/Magazine_Ground,
+        texture = Worlditems/BarmenSecretMagazine,
+        scale = 0.0045,
+    }
+}

@@ -1,0 +1,5 @@
+Recipes_EN {
+    Recipe_Make_An_Alcohol_Crying_Dragon    = "Make an alcohol: Crying dragon",
+    Recipe_Make_An_Alcohol_Dragon_Blood     = "Make an alcohol: Dragon blood",
+    Recipe_Make_An_Alcohol_Carrot_Cocktail  = "Make an alcohol: Carrot cocktail",
+}

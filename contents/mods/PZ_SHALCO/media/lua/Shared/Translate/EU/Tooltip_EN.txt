@@ -1,0 +1,3 @@
+Tooltip_EN = {
+    Tooltip_BarmenSecretMagazine = "Allows you to enter the secret brotherhood of Shelter bartenders",
+}

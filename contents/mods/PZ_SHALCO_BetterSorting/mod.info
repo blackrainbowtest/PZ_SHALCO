@@ -1,7 +1,0 @@
-name=PZ_SHALCO Better Sorting patch
-id=sapphcookingbettersorting
-poster=poster.png
-icon=icon.png
-versionMin=41.56
-require=PZ_SHALCO,BetterSortCC
-description=Adds mod support for Better Sorting

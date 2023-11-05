@@ -1,0 +1,7 @@
+ItemName_RU = {
+    ItemName_SHALCO.AlcoholCryingDragon     = "Плачущий дракон",
+    ItemName_SHALCO.AlcoholDragonBlood      = "Кровь дракона",
+    ItemName_SHALCO.AlcoholCarrotCocktail   = "Морковный коктейл",
+
+    ItemName_SHALCO.BarmenSecretMagazine    = "Тайное братство барменов",
+}

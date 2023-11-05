@@ -1,0 +1,55 @@
+-- require "TimedActions/ISBaseTimedAction"
+
+-- IsUseAlcohol = ISBaseTimedAction:derive("IsUseAlcohol");
+
+-- function IsUseAlcohol:new(character, alcohol, time)
+--     local o = {}
+--     setmetatable(o, self)
+--     self.__index = self
+--     o.character = character;
+--     o.alcohol = alcohol;        -- sended alcohol
+--     o.stopOnWalk = false;
+--     o.stopOnRun = false;
+--     o.maxTime = time;           -- time for action
+--     o.caloriesModifier = 8;
+--     return o;
+-- end
+
+-- function IsUseAlcohol:isValid()
+--     self.metalDrum:updateFromIsoObject()
+--     return self.metalDrum:getIsoObject() ~= nil and
+--            self.character:getInventory():contains(self.alcohol) and
+--            not self.metalDrum.isLit and
+--            self.character:getStats():getEndurance() > 0
+-- end
+
+-- function IsUseAlcohol:update()
+--     self.alcohol:setJobDelta(self:getJobDelta());
+--     self.character:faceThisObject(self.metalDrum:getIsoObject())
+--     local endurance = self.character:getStats():getEndurance() - 0.0001 * getGameTime():getMultiplier()
+--     self.character:getStats():setEndurance(endurance);
+--     if self:getJobDelta() < 0.2 then return end
+--     local randNumber = 300;
+--     local randBrokeNumber = 300;
+--     if self.isOutdoorsMan then
+--         randNumber = 150;
+--         randBrokeNumber = 450;
+--     end
+--     if ZombRand(randNumber) == 0 then
+--         local cf = self.metalDrum
+--         local args = { x = cf.x, y = cf.y, z = cf.z }
+--         CMetalDrumSystem.instance:sendCommand(self.character, 'lightFire', args)
+--     else
+--         -- fail ? Maybe no effect will canceled early...
+--         if ZombRand(randBrokeNumber) == 0 then
+--             self.character:getInventory():Remove(self.alcohol);
+--         end
+--     end
+-- end
+
+-- function IsUseAlcohol:perform()
+--     self.alcohol:getContainer():setDrawDirty(true);
+--     self.alcohol:setJobDelta(0.0);
+--     self.character:getStats():setEndurance(self.character:getStats():getEndurance() + 0.1);
+--     ISBaseTimedAction.perform(self);
+-- end

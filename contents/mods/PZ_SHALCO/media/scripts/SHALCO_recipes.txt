@@ -1,0 +1,69 @@
+module SHALCO {
+/*___________________ИМПОРТ_БАЗОВОГО_КЛАССА___________________*/
+    imports
+    {
+        Base, SapphCooking
+    }
+
+    /*
+        бокалы
+            LowballGlass    стакан для крепкого алкоголя
+            CocktailGlass   бокал для коктейлей
+    */
+
+    recipe Make An Alcohol Crying Dragon
+        {
+            BerryBlue,
+            [Recipe.GetItemTypes.SapphCookingSugar];2,
+            BottleofLemonJuice;5,
+            CachacaFull;5,
+            destroy LowballGlass,
+            
+            Result              : AlcoholCryingDragon,
+            Time                : 80.0,
+            Category            : Barman,
+            OnGiveXP            : Recipe.OnGiveXP.None,
+            Sound               : CupFill,
+            NeedToBeLearn       : true,
+
+            Prop1               : LowballGlass,
+            Prop2               : BottleofLemonJuice,
+        }
+    
+    recipe Make An Alcohol Dragon Blood
+        {
+            Lime,
+            [Recipe.GetItemTypes.SapphCookingSugar];2,
+            CachacaFull;5,
+            destroy LowballGlass,
+            
+            Result              : AlcoholDragonBlood,
+            Time                : 80.0,
+            Category            : Barman,
+            OnGiveXP            : Recipe.OnGiveXP.None,
+            Sound               : CupFill,
+            NeedToBeLearn       : true,
+
+            Prop1               : LowballGlass,
+            Prop2               : CachacaFull,
+        }
+
+    recipe Make An Alcohol Carrot Cocktail
+        {
+            keep CocktailMixer,
+            Carrots=2,
+            GinFull;5,
+            Vermouth;5,
+            destroy CocktailGlass,
+
+            Result              : AlcoholCarrotCocktail,
+            Time                : 80.0,
+            Category            : Barman,
+            OnGiveXP            : Recipe.OnGiveXP.None,
+            Sound               : CupFill,            
+            NeedToBeLearn       : true,            
+
+            Prop1               : CocktailGlass,
+            Prop2               : CocktailMixer,
+        }
+}

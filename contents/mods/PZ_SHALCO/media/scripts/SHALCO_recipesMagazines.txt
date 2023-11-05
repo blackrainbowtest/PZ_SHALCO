@@ -1,0 +1,27 @@
+module SHALCO {
+/*___________________ИМПОРТ_БАЗОВОГО_КЛАССА___________________*/
+    imports
+    {
+        Base, SapphCooking
+    }
+
+/*___________________ПРЕДМЕТЫ:_ЛИТЕРАТУРА_НАПИТКОВ___________________*/
+    item BarmenSecretMagazine
+    {
+        Type                            = Literature,
+        DisplayName                     = The Secret Brotherhood of Bartenders,
+        Icon                            = BarmenSecretMagazine,
+        Weight                          = 0.1,
+        
+        TeachedRecipes                  = Make An Alcohol Crying Dragon;Make An Alcohol Dragon Blood;Make An Alcohol Carrot Cocktail,
+        StaticModel                     = BarmenSecretMagazine_Hand,
+        WorldStaticModel                = BarmenSecretMagazine_Ground,
+        Tooltip                         = Tooltip_BarmenSecretMagazine,
+        
+        DisplayCategory                 = SkillBook,
+        ReplaceOnUse                    = BarmenSecretMagazine,
+    }
+
+
+
+}

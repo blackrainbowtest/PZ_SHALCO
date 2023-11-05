@@ -1,0 +1,5 @@
+Recipes_RU {
+    Recipe_Make_An_Alcohol_Crying_Dragon    = "Создать алкоголь: Плачущий Дракон",    
+    Recipe_Make_An_Alcohol_Dragon_Blood     = "Создать алкоголь: Кровь дракона",
+    Recipe_Make_An_Alcohol_Carrot_Cocktail  = "Создать алкоголь: Морковный коктейл",
+}
