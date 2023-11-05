@@ -13,7 +13,33 @@ module SHALCO {
         Icon                            = BarmenSecretMagazine,
         Weight                          = 0.1,
         
-        TeachedRecipes                  = Make An Alcohol Crying Dragon;Make An Alcohol Dragon Blood;Make An Alcohol Carrot Cocktail,
+        TeachedRecipes                  =   Make DarkVoidAleFull;
+                                            Make ZombiePotionFull;
+                                            Make SkeletonLiqueurFull;
+                                            Make WhisperOfDarknessFull;
+                                            Make ApocalypticExtractFull;
+                                            Make FelclothFull;
+                                            Make LycanthropeSmoothieFull;
+                                            Make WindyVampireFull;
+                                            Make LivingDeadGrogFull;
+                                            Make CursedDoctorFull;
+                                            Make GrimBarrierFull;
+                                            Make DragonsBreathFull;
+                                            Make DemonicEntityFull;
+                                            Make GhostHoundFull;
+                                            Make NecromanticDrinkFull;
+                                            Make AstralElixirFull;
+                                            Make WoundedGhoulFull;
+                                            Make DeadlyGulpFull;
+                                            Make FlamingWhiskeyFull;
+                                            Make CryingDragonFull;
+                                            Make DragonBloodFull;
+                                            Make CarrotCocktailFull;
+                                            Make MidnightAvengerFull;
+                                            Make BloodOfHeroFull;
+                                            Make WatchmakerFull;
+                                            Make SurvivorFull;
+                                            Make EmritasNightShadowFull,
         StaticModel                     = BarmenSecretMagazine_Hand,
         WorldStaticModel                = BarmenSecretMagazine_Ground,
         Tooltip                         = Tooltip_BarmenSecretMagazine,

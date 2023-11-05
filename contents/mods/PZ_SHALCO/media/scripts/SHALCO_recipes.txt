@@ -11,9 +11,343 @@ module SHALCO {
             CocktailGlass   бокал для коктейлей
     */
 
-    recipe Make An Alcohol Crying Dragon
+    recipe Make DarkVoidAleFull
+    {
+        Lime,
+        Apple=2,
+        keep CocktailMixer,
+        GinFull;5,
+        Vermouth;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholDarkVoidAle,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make ZombiePotionFull
+    {
+        Lemon,
+        Banana=2,
+        keep CocktailMixer,
+        Salt;2,
+		BottleofLemonJuice;5,
+		TequilaFull;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholZombiePotion,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make SkeletonLiqueurFull
+    {
+        Apple,
+        BerryBlack=2,
+        GinFull;5,
+        Vermouth;5,
+        destroy LowballGlass,
+
+        Result              : AlcoholSkeletonLiqueur,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make WhisperOfDarknessFull
+    {
+        GinFull;5,
+        Vermouth;5,
+        Egg/BrownEgg/WildEggs,
+		WhiskeyFull;5,
+        Salt;2,
+        destroy LowballGlass,
+
+        Result              : AlcoholWhisperOfDarkness,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make ApocalypticExtractFull
+    {
+        Orange,
+        Pear=2,
+        keep CocktailMixer,
+        GinFull;5,
+        Vermouth;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholApocalypticExtract,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make FelclothFull
+    {
+        Pear,
+        Peach=2,
+        keep CocktailMixer,
+        Egg/BrownEgg/WildEggs,
+		WhiskeyFull;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholFelcloth,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make LycanthropeSmoothieFull
+    {
+        Pineapple,
+        Orange=2,
+        [Recipe.GetItemTypes.SapphCookingSugar];2,
+        keep CocktailMixer,
+        Salt;2,
+		BottleofLemonJuice;5,
+		TequilaFull;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholLycanthropeSmoothie,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make WindyVampireFull
+    {
+        Grapefruit,
+        Grapes=2,
+        keep CocktailMixer,
+        GinFull;5,
+        Vermouth;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholWindyVampire,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make LivingDeadGrogFull
+    {
+        Grapefruit,
+        Mango=2,
+        keep CocktailMixer,
+        GinFull;5,
+        Vermouth;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholLivingDeadGrog,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make CursedDoctorFull
+    {
+        keep CocktailMixer,
+        GinFull;5,
+        Vermouth;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholCursedDoctor,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make GrimBarrierFull
+    {
+        keep CocktailMixer,
+        [Recipe.GetItemTypes.SapphCookingSugar];2,
+        GinFull;5,
+        Vermouth;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholGrimBarrier,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make DragonsBreathFull
+    {
+        keep CocktailMixer,
+        Vermouth;5,
+		GinFull;5,
+		LiqueurBottle;5,
+        VodkaFull;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholDragonsBreath,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make DemonicEntityFull
+    {
+        keep CocktailMixer,
+        GinFull;5,
+        [Recipe.GetItemTypes.SapphCookingSugar];2,
+        Egg/BrownEgg/WildEggs,
+        Vermouth;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholDemonicEntity,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make GhostHoundFull
+    {
+        keep CocktailMixer,
+        GinFull;5,
+        Egg/BrownEgg/WildEggs,
+        Vermouth;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholGhostHound,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make NecromanticDrinkFull
+    {
+        keep CocktailMixer,
+        GinFull;5,
+        BottleofLemonJuice;5,
+        Vermouth;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholNecromanticDrink,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make AstralElixirFull
+    {
+        keep CocktailMixer,
+        [Recipe.GetItemTypes.SapphCookingSugar];2,
+        GinFull;5,
+        Vermouth;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholAstralElixir,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make WoundedGhoulFull
+    {
+        WatermelonSliced,
+        Grapes=2,
+        keep CocktailMixer,
+        GinFull;5,
+        Vermouth;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholWoundedGhoul,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make DeadlyGulpFull
+    {
+        WatermelonSliced,
+        Apple=2,
+        keep CocktailMixer,
+        GinFull;5,
+        Vermouth;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholDeadlyGulp,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+    recipe Make FlamingWhiskeyFull
+    {
+        [Recipe.GetItemTypes.SapphCookingSugar];2,
+        BottleofLemonJuice;5,
+        CachacaFull;5,
+        destroy LowballGlass,
+        
+        Result              : AlcoholFlamingWhiskey,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,
+        NeedToBeLearn       : true,
+    }
+
+    recipe Make CryingDragonFull
         {
-            BerryBlue,
             [Recipe.GetItemTypes.SapphCookingSugar];2,
             BottleofLemonJuice;5,
             CachacaFull;5,
@@ -25,16 +359,13 @@ module SHALCO {
             OnGiveXP            : Recipe.OnGiveXP.None,
             Sound               : CupFill,
             NeedToBeLearn       : true,
-
-            Prop1               : LowballGlass,
-            Prop2               : BottleofLemonJuice,
         }
     
-    recipe Make An Alcohol Dragon Blood
+    recipe Make DragonBloodFull
         {
-            Lime,
             [Recipe.GetItemTypes.SapphCookingSugar];2,
             CachacaFull;5,
+            VodkaFull;5,
             destroy LowballGlass,
             
             Result              : AlcoholDragonBlood,
@@ -43,12 +374,9 @@ module SHALCO {
             OnGiveXP            : Recipe.OnGiveXP.None,
             Sound               : CupFill,
             NeedToBeLearn       : true,
-
-            Prop1               : LowballGlass,
-            Prop2               : CachacaFull,
         }
 
-    recipe Make An Alcohol Carrot Cocktail
+    recipe Make CarrotCocktailFull
         {
             keep CocktailMixer,
             Carrots=2,
@@ -63,7 +391,86 @@ module SHALCO {
             Sound               : CupFill,            
             NeedToBeLearn       : true,            
 
-            Prop1               : CocktailGlass,
-            Prop2               : CocktailMixer,
+            
+            
         }
+
+    recipe Make MidnightAvengerFull
+    {
+        Chocolate,
+        [Recipe.GetItemTypes.SapphCookingSugar];2,
+        keep CocktailMixer,
+        GinFull;5,
+        Vermouth;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholMidnightAvenger,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+
+    }
+
+    recipe Make BloodOfHeroFull
+    {
+        WhiteChocolate,
+        [Recipe.GetItemTypes.SapphCookingSugar];2,
+        CachacaFull;5,
+        destroy LowballGlass,Result              : AlcoholBloodOfHero,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,
+        NeedToBeLearn       : true,
+
+    }
+
+    recipe Make WatchmakerFull
+    {
+        Chocolate,
+        [Recipe.GetItemTypes.SapphCookingSugar];2,
+        CachacaFull;5,
+        destroy LowballGlass,Result              : AlcoholWatchmaker,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,
+        NeedToBeLearn       : true,
+    }
+
+    recipe Make SurvivorFull
+    {
+        [Recipe.GetItemTypes.SapphCookingSugar];2,
+        CachacaFull;5,
+        destroy LowballGlass,Result              : AlcoholSurvivor,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,
+        NeedToBeLearn       : true,
+    }
+
+    recipe Make EmritasNightShadowFull
+    {
+        Chocolate,
+        WhiteChocolate,
+        keep CocktailMixer,
+        GinFull;5,
+        Vermouth;5,
+        destroy CocktailGlass,
+
+        Result              : AlcoholEmritasNightShadow,
+        Time                : 80.0,
+        Category            : Barman,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,            
+        NeedToBeLearn       : true,            
+
+    }
+
+
+
 }

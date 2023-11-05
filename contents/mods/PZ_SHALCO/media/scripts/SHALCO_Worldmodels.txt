@@ -7,6 +7,139 @@ module SHALCO
         Base
     }
 
+    model AlcoholDarkVoidAle_Ground
+    {
+        mesh = Worlditems/CocktailGlassDrink,
+        texture = Worlditems/DarkVoidAleFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholZombiePotion_Ground
+    {
+        mesh = Worlditems/CocktailGlassDrink,
+        texture = Worlditems/ZombiePotionFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholSkeletonLiqueur_Ground
+    {
+        mesh = Worlditems/LowballDrink,
+        texture = Worlditems/SkeletonLiqueurFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholWhisperOfDarkness_Ground
+    {
+        mesh = Worlditems/LowballGlass_Full,
+        texture = Worlditems/WhisperOfDarknessFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholApocalypticExtract_Ground
+    {
+        mesh = Worlditems/CocktailGlassDrink,
+        texture = Worlditems/ApocalypticExtractFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholFelcloth_Ground
+    {
+        mesh = Worlditems/CocktailGlassDrink,
+        texture = Worlditems/FelclothFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholLycanthropeSmoothie_Ground
+    {
+        mesh = Worlditems/CocktailGlassDrink,
+        texture = Worlditems/LycanthropeSmoothieFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholWindyVampire_Ground
+    {
+        mesh = Worlditems/CocktailGlassDrink,
+        texture = Worlditems/WindyVampireFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholLivingDeadGrog_Ground
+    {
+        mesh = Worlditems/CocktailGlassDrink,
+        texture = Worlditems/LivingDeadGrogFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholCursedDoctor_Ground
+    {
+        mesh = Worlditems/CocktailGlass_Full,
+        texture = Worlditems/CursedDoctorFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholGrimBarrier_Ground
+    {
+        mesh = Worlditems/CocktailGlass_Full,
+        texture = Worlditems/GrimBarrierFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholDragonsBreath_Ground
+    {
+        mesh = Worlditems/CocktailGlass_Full,
+        texture = Worlditems/DragonsBreathFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholDemonicEntity_Ground
+    {
+        mesh = Worlditems/CocktailGlass_Full,
+        texture = Worlditems/DemonicEntityFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholGhostHound_Ground
+    {
+        mesh = Worlditems/CocktailGlass_Full,
+        texture = Worlditems/GhostHoundFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholNecromanticDrink_Ground
+    {
+        mesh = Worlditems/CocktailGlass_Full,
+        texture = Worlditems/NecromanticDrinkFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholAstralElixir_Ground
+    {
+        mesh = Worlditems/CocktailGlass_Full,
+        texture = Worlditems/AstralElixirFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholWoundedGhoul_Ground
+    {
+        mesh = Worlditems/CocktailGlassDrink,
+        texture = Worlditems/WoundedGhoulFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholDeadlyGulp_Ground
+    {
+        mesh = Worlditems/CocktailGlassDrink,
+        texture = Worlditems/DeadlyGulpFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholFlamingWhiskey_Ground
+    {
+        mesh = Worlditems/LowballGlass_Full,
+        texture = Worlditems/FlamingWhiskeyFull,
+        scale = 0.0045,
+    }
+
     model AlcoholCryingDragon_Ground
     {
         mesh = Worlditems/LowballGlass_Full,
@@ -16,7 +149,7 @@ module SHALCO
 
     model AlcoholDragonBlood_Ground
     {
-        mesh = Worlditems/LowBallDrink,
+        mesh = Worlditems/LowballGlass_Full,
         texture = Worlditems/DragonBloodFull,
         scale = 0.0045,
     }
@@ -27,7 +160,42 @@ module SHALCO
         texture = Worlditems/CarrotCocktailFull,
         scale = 0.0045,
     }
-    
+
+    model AlcoholMidnightAvenger_Ground
+    {
+        mesh = Worlditems/CocktailGlass_Full,
+        texture = Worlditems/MidnightAvengerFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholBloodOfHero_Ground
+    {
+        mesh = Worlditems/LowballGlass_Full,
+        texture = Worlditems/BloodOfHeroFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholWatchmaker_Ground
+    {
+        mesh = Worlditems/LowballGlass_Full,
+        texture = Worlditems/WatchmakerFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholSurvivor_Ground
+    {
+        mesh = Worlditems/LowballGlass_Full,
+        texture = Worlditems/SurvivorFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholEmritasNightShadow_Ground
+    {
+        mesh = Worlditems/CocktailGlassDrink,
+        texture = Worlditems/EmritasNightShadowFull,
+        scale = 0.0045,
+    }
+   
     model BarmenSecretMagazine_Ground
     {
         mesh = Worlditems/Magazine_Ground,

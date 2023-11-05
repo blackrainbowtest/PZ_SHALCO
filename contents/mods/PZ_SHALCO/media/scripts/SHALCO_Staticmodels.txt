@@ -7,6 +7,139 @@ module SHALCO
         Base
     }
 
+    model AlcoholDarkVoidAle_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/DarkVoidAleFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholZombiePotion_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/ZombiePotionFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholSkeletonLiqueur_Hand
+    {
+        mesh = Worlditems/H_LowballGlass_Full,
+        texture = Worlditems/SkeletonLiqueurFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholWhisperOfDarkness_Hand
+    {
+        mesh = Worlditems/H_LowballGlass_Full,
+        texture = Worlditems/WhisperOfDarknessFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholApocalypticExtract_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/ApocalypticExtractFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholFelcloth_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/FelclothFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholLycanthropeSmoothie_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/LycanthropeSmoothieFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholWindyVampire_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/WindyVampireFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholLivingDeadGrog_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/LivingDeadGrogFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholCursedDoctor_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/CursedDoctorFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholGrimBarrier_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/GrimBarrierFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholDragonsBreath_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/DragonsBreathFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholDemonicEntity_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/DemonicEntityFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholGhostHound_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/GhostHoundFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholNecromanticDrink_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/NecromanticDrinkFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholAstralElixir_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/AstralElixirFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholWoundedGhoul_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/WoundedGhoulFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholDeadlyGulp_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/DeadlyGulpFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholFlamingWhiskey_Hand
+    {
+        mesh = Worlditems/H_LowballGlass_Full,
+        texture = Worlditems/FlamingWhiskeyFull,
+        scale = 0.0045,
+    }
+
     model AlcoholCryingDragon_Hand
     {
         mesh = Worlditems/H_LowballGlass_Full,
@@ -16,7 +149,7 @@ module SHALCO
 
     model AlcoholDragonBlood_Hand
     {
-        mesh = Worlditems/H_LowBallDrink,
+        mesh = Worlditems/H_LowballGlass_Full,
         texture = Worlditems/DragonBloodFull,
         scale = 0.0045,
     }
@@ -25,6 +158,41 @@ module SHALCO
     {
         mesh = Worlditems/H_CocktailGlass_Full,
         texture = Worlditems/CarrotCocktailFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholMidnightAvenger_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/MidnightAvengerFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholBloodOfHero_Hand
+    {
+        mesh = Worlditems/H_LowballGlass_Full,
+        texture = Worlditems/BloodOfHeroFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholWatchmaker_Hand
+    {
+        mesh = Worlditems/H_LowballGlass_Full,
+        texture = Worlditems/WatchmakerFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholSurvivor_Hand
+    {
+        mesh = Worlditems/H_LowballGlass_Full,
+        texture = Worlditems/SurvivorFull,
+        scale = 0.0045,
+    }
+
+    model AlcoholEmritasNightShadow_Hand
+    {
+        mesh = Worlditems/H_CocktailGlass_Full,
+        texture = Worlditems/EmritasNightShadowFull,
         scale = 0.0045,
     }
 

@@ -12,24 +12,693 @@ module SHALCO {
     */
 
 /*___________________ПРЕДМЕТЫ:_АЛКОГОЛЬНЫЕ_НАПИТКИ___________________*/
+        
+    /*___________________ 01 Темный Пустотный Эль (Strength)___________________*/
+        item AlcoholDarkVoidAle {
+                Type                            = Food,
+                DisplayName                     = Dark void ale,
+                Icon                            = DarkVoidAleFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 30,
+                HungerChange                    = 10,
+                ThirstChange                    = -10,
+                UnhappyChange                   = -20,
+                Calories                        = 2000,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = -10,
+                Tooltip                         = Tooltip_AlcoholDarkVoidAle,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholDarkVoidAle_Hand,
+                WorldStaticModel                = AlcoholDarkVoidAle_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholDarkVoidAle
+            }
+        
+    /*___________________ 02 Зомби Зелье (Fitness)___________________*/
+        item AlcoholZombiePotion {
+                Type                            = Food,
+                DisplayName                     = Zombie Potion,
+                Icon                            = ZombiePotionFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 20,
+                HungerChange                    = 5,
+                ThirstChange                    = -5,
+                UnhappyChange                   = -15,
+                Calories                        = 1500,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 5,
+                Tooltip                         = Tooltip_AlcoholZombiePotion,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholZombiePotion_Hand,
+                WorldStaticModel                = AlcoholZombiePotion_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholZombiePotion
+            }
     
-    /* ___________________ПЛАЧУЩИЙ_ДРАКОН___________________ */
+    /*___________________ 03 Скелетный ликер (Sprinting)___________________*/
+        item AlcoholSkeletonLiqueur {
+                Type                            = Food,
+                DisplayName                     = Skeleton liqueur,
+                Icon                            = SkeletonLiqueurFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 25,
+                HungerChange                    = 8,
+                ThirstChange                    = -8,
+                UnhappyChange                   = -18,
+                Calories                        = 1180,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 8,
+                Tooltip                         = Tooltip_AlcoholSkeletonLiqueur,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholSkeletonLiqueur_Hand,
+                WorldStaticModel                = AlcoholSkeletonLiqueur_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.LowballGlass,
+                ReplaceOnDeplete                = SapphCooking.LowballGlass,
+                OnEat                           = OnEat_AlcoholSkeletonLiqueur
+            }
+    
+    /*___________________ 04 Шепот Тьмы (Lightfoot)___________________*/
+        item AlcoholWhisperOfDarkness {
+                Type                            = Food,
+                DisplayName                     = Whisper of darkness,
+                Icon                            = WhisperOfDarknessFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 15,
+                HungerChange                    = 3,
+                ThirstChange                    = -3,
+                UnhappyChange                   = -12,
+                Calories                        = 980,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 3,
+                Tooltip                         = Tooltip_AlcoholWhisperOfDarkness,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholWhisperOfDarkness_Hand,
+                WorldStaticModel                = AlcoholWhisperOfDarkness_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.LowballGlass,
+                ReplaceOnDeplete                = SapphCooking.LowballGlass,
+                OnEat                           = OnEat_AlcoholWhisperOfDarkness
+            }
+        
+    /*___________________ 05 Апокалиптический Экстракт (Nimble)___________________*/
+        item AlcoholApocalypticExtract {
+                Type                            = Food,
+                DisplayName                     = Apocalyptic Extract,
+                Icon                            = ApocalypticExtractFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 35,
+                HungerChange                    = 12,
+                ThirstChange                    = -12,
+                UnhappyChange                   = -25,
+                Calories                        = 2200,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 12,
+                Tooltip                         = Tooltip_AlcoholApocalypticExtract,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholApocalypticExtract_Hand,
+                WorldStaticModel                = AlcoholApocalypticExtract_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholApocalypticExtract
+            }
+        
+    /*___________________ 06 Ткань Скверны (Sneak)___________________*/
+        item AlcoholFelcloth {
+                Type                            = Food,
+                DisplayName                     = Felcloth,
+                Icon                            = FelclothFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 22,
+                HungerChange                    = 7,
+                ThirstChange                    = -7,
+                UnhappyChange                   = -17,
+                Calories                        = 1600,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 7,
+                Tooltip                         = Tooltip_AlcoholFelcloth,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholFelcloth_Hand,
+                WorldStaticModel                = AlcoholFelcloth_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholFelcloth
+            }
+    
+    /*___________________ 07 Ликантропский смузи (Axe)___________________*/
+        item AlcoholLycanthropeSmoothie {
+                Type                            = Food,
+                DisplayName                     = Lycanthrope smoothie,
+                Icon                            = LycanthropeSmoothieFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 18,
+                HungerChange                    = 6,
+                ThirstChange                    = -6,
+                UnhappyChange                   = -14,
+                Calories                        = 1400,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 6,
+                Tooltip                         = Tooltip_AlcoholLycanthropeSmoothie,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholLycanthropeSmoothie_Hand,
+                WorldStaticModel                = AlcoholLycanthropeSmoothie_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholLycanthropeSmoothie
+            }
+    
+    /*___________________ 08 Ветреный Вампир (Blunt)___________________*/
+        item AlcoholWindyVampire {
+                Type                            = Food,
+                DisplayName                     = Windy vampire,
+                Icon                            = WindyVampireFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 28,
+                HungerChange                    = 10,
+                ThirstChange                    = -10,
+                UnhappyChange                   = -22,
+                Calories                        = 1900,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 10,
+                Tooltip                         = Tooltip_AlcoholWindyVampire,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholWindyVampire_Hand,
+                WorldStaticModel                = AlcoholWindyVampire_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholWindyVampire
+            }
+
+    /*___________________ 09 Живой Мертвец Грог (SmallBlunt)___________________*/
+        item AlcoholLivingDeadGrog {
+                Type                            = Food,
+                DisplayName                     = Living Dead Grog,
+                Icon                            = LivingDeadGrogFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 40,
+                HungerChange                    = 15,
+                ThirstChange                    = -15,
+                UnhappyChange                   = -30,
+                Calories                        = 2500,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 15,
+                Tooltip                         = Tooltip_AlcoholLivingDeadGrog,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholLivingDeadGrog_Hand,
+                WorldStaticModel                = AlcoholLivingDeadGrog_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholLivingDeadGrog
+            }
+    
+    /*___________________ 10 Проклятый Доктор (LongBlade)___________________*/
+        item AlcoholCursedDoctor {
+                Type                            = Food,
+                DisplayName                     = Cursed Doctor,
+                Icon                            = CursedDoctorFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 25,
+                HungerChange                    = 8,
+                ThirstChange                    = -8,
+                UnhappyChange                   = -20,
+                Calories                        = 1700,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 8,
+                Tooltip                         = Tooltip_AlcoholCursedDoctor,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholCursedDoctor_Hand,
+                WorldStaticModel                = AlcoholCursedDoctor_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholCursedDoctor
+            }
+
+    /*___________________ 11 Мрачный барьер (SmallBlade)___________________*/
+        item AlcoholGrimBarrier {
+                Type                            = Food,
+                DisplayName                     = Grim Barrier,
+                Icon                            = GrimBarrierFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 33,
+                HungerChange                    = 11,
+                ThirstChange                    = -11,
+                UnhappyChange                   = -23,
+                Calories                        = 2300,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 11,
+                Tooltip                         = Tooltip_AlcoholGrimBarrier,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholGrimBarrier_Hand,
+                WorldStaticModel                = AlcoholGrimBarrier_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholGrimBarrier
+            }
+        
+    /*___________________ 12 Драконье Дыхание (Spear)___________________*/
+        item AlcoholDragonsBreath {
+                Type                            = Food,
+                DisplayName                     = Dragons Breath,
+                Icon                            = DragonsBreathFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 26,
+                HungerChange                    = 9,
+                ThirstChange                    = -9,
+                UnhappyChange                   = -19,
+                Calories                        = 1900,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 9,
+                Tooltip                         = Tooltip_AlcoholDragonsBreath,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholDragonsBreath_Hand,
+                WorldStaticModel                = AlcoholDragonsBreath_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholDragonsBreath
+            }
+    
+    /*___________________ 13 Демоническая сущность (Maintenance)___________________*/
+        item AlcoholDemonicEntity {
+                Type                            = Food,
+                DisplayName                     = Demonic Entity,
+                Icon                            = DemonicEntityFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 21,
+                HungerChange                    = 6,
+                ThirstChange                    = -6,
+                UnhappyChange                   = -15,
+                Calories                        = 1700,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 6,
+                Tooltip                         = Tooltip_AlcoholDemonicEntity,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholDemonicEntity_Hand,
+                WorldStaticModel                = AlcoholDemonicEntity_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholDemonicEntity
+            }
+
+    /*___________________ 14 Призрачная гончая (Woodwork)___________________*/
+        item AlcoholGhostHound {
+                Type                            = Food,
+                DisplayName                     = Ghost Hound,
+                Icon                            = GhostHoundFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 31,
+                HungerChange                    = 10,
+                ThirstChange                    = -10,
+                UnhappyChange                   = -21,
+                Calories                        = 2100,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 10,
+                Tooltip                         = Tooltip_AlcoholGhostHound,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholGhostHound_Hand,
+                WorldStaticModel                = AlcoholGhostHound_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholGhostHound
+            }
+
+    /*___________________ 15 Некромантический Напиток (Cooking)___________________*/
+        item AlcoholNecromanticDrink {
+                Type                            = Food,
+                DisplayName                     = Necromantic Drink,
+                Icon                            = NecromanticDrinkFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 19,
+                HungerChange                    = 7,
+                ThirstChange                    = -7,
+                UnhappyChange                   = -17,
+                Calories                        = 1600,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 7,
+                Tooltip                         = Tooltip_AlcoholNecromanticDrink,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholNecromanticDrink_Hand,
+                WorldStaticModel                = AlcoholNecromanticDrink_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholNecromanticDrink
+            }
+
+    /*___________________ 16 Астральный Эликсир (Farming)___________________*/
+        item AlcoholAstralElixir {
+                Type                            = Food,
+                DisplayName                     = Astral Elixir,
+                Icon                            = AstralElixirFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 28,
+                HungerChange                    = 9,
+                ThirstChange                    = -9,
+                UnhappyChange                   = -20,
+                Calories                        = 2000,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 9,
+                Tooltip                         = Tooltip_AlcoholAstralElixir,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholAstralElixir_Hand,
+                WorldStaticModel                = AlcoholAstralElixir_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholAstralElixir
+            }
+
+    /*___________________ 17 Раненный Вурдалак (Doctor)___________________*/
+        item AlcoholWoundedGhoul {
+                Type                            = Food,
+                DisplayName                     = Wounded Ghoul,
+                Icon                            = WoundedGhoulFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 23,
+                HungerChange                    = 8,
+                ThirstChange                    = -8,
+                UnhappyChange                   = -18,
+                Calories                        = 1700,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 8,
+                Tooltip                         = Tooltip_AlcoholWoundedGhoul,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholWoundedGhoul_Hand,
+                WorldStaticModel                = AlcoholWoundedGhoul_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholWoundedGhoul
+            }
+    
+    /*___________________ 18 Смертельный Глоток (Electricity)___________________*/
+        item AlcoholDeadlyGulp {
+                Type                            = Food,
+                DisplayName                     = Deadly Gulp,
+                Icon                            = DeadlyGulpFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 34,
+                HungerChange                    = 11,
+                ThirstChange                    = -11,
+                UnhappyChange                   = -22,
+                Calories                        = 2200,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 11,
+                Tooltip                         = Tooltip_AlcoholDeadlyGulp,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholDeadlyGulp_Hand,
+                WorldStaticModel                = AlcoholDeadlyGulp_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholDeadlyGulp
+            }
+    
+    /*___________________ 19 Пламенный Виски (Mechanics)___________________*/
+        item AlcoholFlamingWhiskey {
+                Type                            = Food,
+                DisplayName                     = Flaming Whiskey,
+                Icon                            = FlamingWhiskeyFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 34,
+                HungerChange                    = 11,
+                ThirstChange                    = -11,
+                UnhappyChange                   = -22,
+                Calories                        = 2200,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 11,
+                Tooltip                         = Tooltip_AlcoholFlamingWhiskey,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholFlamingWhiskey_Hand,
+                WorldStaticModel                = AlcoholFlamingWhiskey_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.LowballGlass,
+                ReplaceOnDeplete                = SapphCooking.LowballGlass,
+                OnEat                           = OnEat_AlcoholFlamingWhiskey
+            }
+
+    /* __________________ 20 ПЛАЧУЩИЙ_ДРАКОН (Tailoring)___________________ */
         item AlcoholCryingDragon {
                 Type                            = Food,
                 DisplayName                     = Crying Dragon,
                 Icon                            = CryingDragonFull,
                 Weight                          = 0.4,
                 RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
 
                 FatigueChange                   = 5,
                 HungerChange                    = 15,
                 ThirstChange                    = -5,
                 UnhappyChange                   = -5,
-                Calories                        = 100,
-                Carbohydrates                   = 16,
+                Calories                        = 1200,
+                Carbohydrates                   = 0,
                 Lipids                          = 0,
-                Proteins                        = 0.5,
+                Proteins                        = 0,
                 StressChange                    = -5,
+                Tooltip                         = Tooltip_AlcoholCryingDragon,
                 
                 Alcoholic                       = true,
                 AlcoholPower                    = 1,
@@ -40,25 +709,31 @@ module SHALCO {
                 CustomContextMenu               = Drink,
                 UseWhileEquipped                = FALSE,
                 ReplaceOnUse                    = SapphCooking.LowballGlass,
+                ReplaceOnDeplete                = SapphCooking.LowballGlass,
                 OnEat                           = OnEat_AlcoholCryingDragon
             }
         
+    /*___________________ 21 Кровь дракона (MetalWelding)___________________*/
         item AlcoholDragonBlood {
                 Type                            = Food,
                 DisplayName                     = Dragon Blood,
                 Icon                            = DragonBloodFull,
                 Weight                          = 0.4,
                 RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
 
                 FatigueChange                   = 5,
                 HungerChange                    = 15,
                 ThirstChange                    = -5,
                 UnhappyChange                   = -5,
-                Calories                        = 120,
-                Carbohydrates                   = 16,
+                Calories                        = 1020,
+                Carbohydrates                   = 0,
                 Lipids                          = 0,
                 Proteins                        = 0.5,
                 StressChange                    = -15,
+                Tooltip                         = Tooltip_AlcoholDragonBlood,
                 
                 Alcoholic                       = true,
                 AlcoholPower                    = 1,
@@ -69,25 +744,31 @@ module SHALCO {
                 CustomContextMenu               = Drink,
                 UseWhileEquipped                = FALSE,
                 ReplaceOnUse                    = SapphCooking.LowballGlass,
+                ReplaceOnDeplete                = SapphCooking.LowballGlass,
                 OnEat                           = OnEat_AlcoholDragonBlood
             }
         
+    /*___________________ 22 Морковный коктель (Fishing)___________________*/
         item AlcoholCarrotCocktail {
                 Type                            = Food,
                 DisplayName                     = Carrot Cocktail,
                 Icon                            = CarrotCocktailFull,
                 Weight                          = 0.4,
                 RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
 
                 FatigueChange                   = 5,
                 HungerChange                    = 15,
                 ThirstChange                    = -5,
                 UnhappyChange                   = -5,
-                Calories                        = 120,
-                Carbohydrates                   = 16,
+                Calories                        = 1540,
+                Carbohydrates                   = 0,
                 Lipids                          = 0,
-                Proteins                        = 0.5,
+                Proteins                        = 0,
                 StressChange                    = -15,
+                Tooltip                         = Tooltip_AlcoholCarrotCocktail,
                 
                 Alcoholic                       = true,
                 AlcoholPower                    = 1,
@@ -98,7 +779,184 @@ module SHALCO {
                 CustomContextMenu               = Drink,
                 UseWhileEquipped                = FALSE,
                 ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
                 OnEat                           = OnEat_AlcoholCarrotCocktail
             }
+
+    /*___________________ 23 Полуночный мститель (Reloading)___________________*/
+        item AlcoholMidnightAvenger {
+                Type                            = Food,
+                DisplayName                     = Midnight Avenger,
+                Icon                            = MidnightAvengerFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 25,
+                HungerChange                    = 8,
+                ThirstChange                    = -8,
+                UnhappyChange                   = -18,
+                Calories                        = 1800,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 8,
+                Tooltip                         = Tooltip_AlcoholMidnightAvenger,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholMidnightAvenger_Hand,
+                WorldStaticModel                = AlcoholMidnightAvenger_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholMidnightAvenger
+            }
+        
+    /*___________________ 24 Кровь героя (Aiming)___________________*/
+        item AlcoholBloodOfHero {
+                Type                            = Food,
+                DisplayName                     = Blood of a Hero,
+                Icon                            = BloodOfHeroFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 40,
+                HungerChange                    = 15,
+                ThirstChange                    = -15,
+                UnhappyChange                   = -30,
+                Calories                        = 2500,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 15,
+                Tooltip                         = Tooltip_AlcoholBloodOfHero,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholBloodOfHero_Hand,
+                WorldStaticModel                = AlcoholBloodOfHero_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.LowballGlass,
+                ReplaceOnDeplete                = SapphCooking.LowballGlass,
+                OnEat                           = OnEat_AlcoholBloodOfHero
+            }
+
+    /*___________________ 25 Часовщик (Trapping)___________________*/
+        item AlcoholWatchmaker {
+                Type                            = Food,
+                DisplayName                     = Watchmaker,
+                Icon                            = WatchmakerFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 40,
+                HungerChange                    = 15,
+                ThirstChange                    = -15,
+                UnhappyChange                   = -30,
+                Calories                        = 2500,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 15,
+                Tooltip                         = Tooltip_AlcoholWatchmaker,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholWatchmaker_Hand,
+                WorldStaticModel                = AlcoholWatchmaker_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.LowballGlass,
+                ReplaceOnDeplete                = SapphCooking.LowballGlass,
+                OnEat                           = OnEat_AlcoholWatchmaker
+            }
+    
+    /*___________________ 26 Выживший (PlantScavenging)___________________*/
+        item AlcoholSurvivor {
+                Type                            = Food,
+                DisplayName                     = Survivor,
+                Icon                            = SurvivorFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 18,
+                HungerChange                    = 6,
+                ThirstChange                    = -6,
+                UnhappyChange                   = -14,
+                Calories                        = 1400,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 6,
+                Tooltip                         = Tooltip_AlcoholSurvivor,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholSurvivor_Hand,
+                WorldStaticModel                = AlcoholSurvivor_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.LowballGlass,
+                ReplaceOnDeplete                = SapphCooking.LowballGlass,
+                OnEat                           = OnEat_AlcoholSurvivor
+            }
+
+    /*___________________ 27 Ночная Тень Эмриты (Random)___________________*/
+        item AlcoholEmritasNightShadow {
+                Type                            = Food,
+                DisplayName                     = Emritas Night Shadow,
+                Icon                            = EmritasNightShadowFull,
+                Weight                          = 0.4,
+                RainFactor                      = 0.1,
+                UseDelta                        = 0.5,
+                Packaged                        = TRUE,
+                CantBeFrozen                    = TRUE,
+
+                FatigueChange                   = 17,
+                HungerChange                    = 4,
+                ThirstChange                    = -4,
+                UnhappyChange                   = -16,
+                Calories                        = 1300,
+                Carbohydrates                   = 0,
+                Lipids                          = 0,
+                Proteins                        = 0,
+                StressChange                    = 4,
+                Tooltip                         = Tooltip_AlcoholEmritasNightShadow,
+                
+                Alcoholic                       = true,
+                AlcoholPower                    = 1,
+                EatType                         = Mug,
+                StaticModel                     = AlcoholEmritasNightShadow_Hand,
+                WorldStaticModel                = AlcoholEmritasNightShadow_Ground,
+                CustomEatSound                  = DrinkingFromBottleGlass,
+                CustomContextMenu               = Drink,
+                UseWhileEquipped                = FALSE,
+                ReplaceOnUse                    = SapphCooking.CocktailGlass,
+                ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+                OnEat                           = OnEat_AlcoholEmritasNightShadow
+            }
+
 
 }
