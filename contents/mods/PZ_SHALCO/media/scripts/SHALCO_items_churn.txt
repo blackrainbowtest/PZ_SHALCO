@@ -1,0 +1,253 @@
+/* ________________________________07.11.2023____________________________________________ */
+/* _______________https://github.com/blackrainbowtest/PZ_SHALCO__________________________ */
+
+module SHALCO {
+/*___________________ИМПОРТ_БАЗОВОГО_КЛАССА___________________*/
+    imports
+    {
+        Base, SapphCooking
+    }
+
+
+/*___________________ПРЕДМЕТЫ:_АЛКОГОЛЬНЫЕ_НАПИТКИ___________________*/
+
+    /*___________________ РАЗДАВЛЕННЫЙ КОНЦЕНТРАНТ ДЖИНА ___________________*/
+        item Churn_Gin {
+            Type                            = Food,
+            DisplayName                     = Wooden Churn with Gin,
+            Icon                            = WoodenChurnIcon,
+            Weight                          = 2,
+            Packaged                        = TRUE,
+            CantBeFrozen                    = TRUE,
+
+            HungerChange                    = -20,
+            ThirstChange                    = -20,
+            UnhappyChange                   = -10,
+            Calories                        = 440,
+            Carbohydrates                   = 30,
+            Lipids                          = 0,
+            Proteins                        = 0,
+            Tooltip                         = Tooltip_Churn_Gin,
+
+            Alcoholic                       = TRUE,
+            AlcoholPower                    = 2,
+            EatType                         = Pot,
+            StaticModel                     = H_ButterChurnBot,
+            WorldStaticModel                = ButterChurn_Ground,
+            CustomEatSound                  = DrinkingFromBottleGlass,
+            CustomContextMenu               = Drink,
+            UseWhileEquipped                = FALSE,
+            ReplaceOnUse                    = SapphCooking.ButterChurn,
+            ReplaceOnDeplete                = SapphCooking.ButterChurn,
+
+
+            DisplayCategory                 = Food,
+            FoodType                        = Gin,
+        }
+    
+    /*___________________ РАЗДАВЛЕННЫЙ КОНЦЕНТРАНТ ВОДКИ ___________________*/
+        item Churn_Vodka {
+            Type                            = Food,
+            DisplayName                     = Wooden Churn with Vodka,
+            Icon                            = WoodenChurnIcon,
+            Weight                          = 2,
+            Packaged                        = TRUE,
+            CantBeFrozen                    = TRUE,
+
+            HungerChange                    = -20,
+            ThirstChange                    = -20,
+            UnhappyChange                   = -10,
+            Calories                        = 400,
+            Carbohydrates                   = 31,
+            Lipids                          = 0,
+            Proteins                        = 0,
+            Tooltip                         = Tooltip_Churn_Vodka,
+
+            Alcoholic                       = TRUE,
+            AlcoholPower                    = 2,
+            EatType                         = Pot,
+            StaticModel                     = H_ButterChurnBot,
+            WorldStaticModel                = ButterChurn_Ground,
+            CustomEatSound                  = DrinkingFromBottleGlass,
+            CustomContextMenu               = Drink,
+            UseWhileEquipped                = FALSE,
+            ReplaceOnUse                    = SapphCooking.ButterChurn,
+            ReplaceOnDeplete                = SapphCooking.ButterChurn,
+
+
+            DisplayCategory                 = Food,
+            FoodType                        = Vodka,
+        }
+    
+    /*___________________ РАЗДАВЛЕННЫЙ КОНЦЕНТРАНТ ТЕКИЛЫ ___________________*/
+        item Churn_Tequila {
+            Type                            = Food,
+            DisplayName                     = Wooden Churn with Tequila,
+            Icon                            = WoodenChurnIcon,
+            Weight                          = 2,
+            Packaged                        = TRUE,
+            CantBeFrozen                    = TRUE,
+
+            HungerChange                    = -20,
+            ThirstChange                    = -20,
+            UnhappyChange                   = -10,
+            Calories                        = 408,
+            Carbohydrates                   = 25,
+            Lipids                          = 0,
+            Proteins                        = 0,
+            Tooltip                         = Tooltip_Churn_Tequila,
+
+            Alcoholic                       = TRUE,
+            AlcoholPower                    = 2,
+            EatType                         = Pot,
+            StaticModel                     = H_ButterChurnBot,
+            WorldStaticModel                = ButterChurn_Ground,
+            CustomEatSound                  = DrinkingFromBottleGlass,
+            CustomContextMenu               = Drink,
+            UseWhileEquipped                = FALSE,
+            ReplaceOnUse                    = SapphCooking.ButterChurn,
+            ReplaceOnDeplete                = SapphCooking.ButterChurn,
+
+
+            DisplayCategory                 = Food,
+            FoodType                        = Tequila,
+        }
+    
+    /*___________________ РАЗДАВЛЕННЫЙ КОНЦЕНТРАНТ КАЧАСА ___________________*/
+        item Churn_Cachaca {
+            Type                            = Food,
+            DisplayName                     = Wooden Churn with Cachaca,
+            Icon                            = WoodenChurnIcon,
+            Weight                          = 2,
+            Packaged                        = TRUE,
+            CantBeFrozen                    = TRUE,
+
+            HungerChange                    = -20,
+            ThirstChange                    = -20,
+            UnhappyChange                   = -10,
+            Calories                        = 545,
+            Carbohydrates                   = 32,
+            Lipids                          = 0,
+            Proteins                        = 0,
+            Tooltip                         = Tooltip_Churn_Cachaca,
+
+            Alcoholic                       = TRUE,
+            AlcoholPower                    = 2,
+            EatType                         = Pot,
+            StaticModel                     = H_ButterChurnBot,
+            WorldStaticModel                = ButterChurn_Ground,
+            CustomEatSound                  = DrinkingFromBottleGlass,
+            CustomContextMenu               = Drink,
+            UseWhileEquipped                = FALSE,
+            ReplaceOnUse                    = SapphCooking.ButterChurn,
+            ReplaceOnDeplete                = SapphCooking.ButterChurn,
+
+
+            DisplayCategory                 = Food,
+            FoodType                        = Cachaca,
+        }
+    
+    /*___________________ РАЗДАВЛЕННЫЙ КОНЦЕНТРАНТ САКЕ ___________________*/
+        item Churn_Sake {
+            Type                            = Food,
+            DisplayName                     = Wooden Churn with Sake,
+            Icon                            = WoodenChurnIcon,
+            Weight                          = 2,
+            Packaged                        = TRUE,
+            CantBeFrozen                    = TRUE,
+
+            HungerChange                    = -20,
+            ThirstChange                    = -30,
+            UnhappyChange                   = -10,
+            Calories                        = 380,
+            Carbohydrates                   = 40,
+            Lipids                          = 1,
+            Proteins                        = 4,
+            Tooltip                         = Tooltip_Churn_Sake,
+
+            Alcoholic                       = TRUE,
+            AlcoholPower                    = 2,
+            EatType                         = Pot,
+            StaticModel                     = H_ButterChurnBot,
+            WorldStaticModel                = ButterChurn_Ground,
+            CustomEatSound                  = DrinkingFromBottleGlass,
+            CustomContextMenu               = Drink,
+            UseWhileEquipped                = FALSE,
+            ReplaceOnUse                    = SapphCooking.ButterChurn,
+            ReplaceOnDeplete                = SapphCooking.ButterChurn,
+
+
+            DisplayCategory                 = Food,
+            FoodType                        = Sake,
+        }
+    
+    /*___________________ РАЗДАВЛЕННЫЙ КОНЦЕНТРАНТ РОМА ___________________*/
+        item Churn_Rum {
+            Type                            = Food,
+            DisplayName                     = Wooden Churn with Rum,
+            Icon                            = WoodenChurnIcon,
+            Weight                          = 2,
+            Packaged                        = TRUE,
+            CantBeFrozen                    = TRUE,
+
+            HungerChange                    = -20,
+            ThirstChange                    = -20,
+            UnhappyChange                   = -10,
+            Calories                        = 150,
+            Carbohydrates                   = 40,
+            Lipids                          = 1,
+            Proteins                        = 4,
+            Tooltip                         = Tooltip_Churn_Rum,
+
+            Alcoholic                       = TRUE,
+            AlcoholPower                    = 2,
+            EatType                         = Pot,
+            StaticModel                     = H_ButterChurnBot,
+            WorldStaticModel                = ButterChurn_Ground,
+            CustomEatSound                  = DrinkingFromBottleGlass,
+            CustomContextMenu               = Drink,
+            UseWhileEquipped                = FALSE,
+            ReplaceOnUse                    = SapphCooking.ButterChurn,
+            ReplaceOnDeplete                = SapphCooking.ButterChurn,
+
+
+            DisplayCategory                 = Food,
+            FoodType                        = Rum,
+        }
+    
+    /*___________________ РАЗДАВЛЕННЫЙ КОНЦЕНТРАНТ ВЕРМУТА ___________________*/
+        item Churn_Vermouth {
+            Type                            = Food,
+            DisplayName                     = Wooden Churn with Vermouth,
+            Icon                            = WoodenChurnIcon,
+            Weight                          = 2,
+            Packaged                        = TRUE,
+            CantBeFrozen                    = TRUE,
+
+            HungerChange                    = -20,
+            ThirstChange                    = -20,
+            UnhappyChange                   = -20,
+            Calories                        = 481,
+            Carbohydrates                   = 0,
+            Lipids                          = 0,
+            Proteins                        = 0,
+            Tooltip                         = Tooltip_Churn_Vermouth,
+
+            Alcoholic                       = TRUE,
+            AlcoholPower                    = 2,
+            EatType                         = Pot,
+            StaticModel                     = H_ButterChurnBot,
+            WorldStaticModel                = ButterChurn_Ground,
+            CustomEatSound                  = DrinkingFromBottleGlass,
+            CustomContextMenu               = Drink,
+            UseWhileEquipped                = FALSE,
+            ReplaceOnUse                    = SapphCooking.ButterChurn,
+            ReplaceOnDeplete                = SapphCooking.ButterChurn,
+
+
+            DisplayCategory                 = Food,
+            FoodType                        = Vermouth,
+        }
+}
+
+

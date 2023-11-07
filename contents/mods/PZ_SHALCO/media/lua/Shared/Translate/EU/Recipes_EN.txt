@@ -25,6 +25,22 @@ Recipes_EN {
     Recipe_Make_BloodOfHeroFull = "Make a cocktail: Blood Of Hero",
     Recipe_Make_WatchmakerFull = "Make a cocktail: Watchmaker",
     Recipe_Make_SurvivorFull = "Make a cocktail: Survivor",
-    Recipe_Make_EmritasNightShadowFull = "Make an alcohol: Emritas Night Shadow"
+    Recipe_Make_EmritasNightShadowFull = "Make an alcohol: Emritas Night Shadow",
+
+    Recipe_Churn_Gin = "Make an infusion: Gin",
+    Recipe_Churn_Vodka = "Make an infusion: Vodka",
+    Recipe_Churn_Tequila = "Make an infusion: Tequila",
+    Recipe_Churn_Cachaca = "Make an infusion: Cachaca",
+    Recipe_Churn_Sake = "Make an infusion: Sake",
+    Recipe_Churn_Rum = "Make an infusion: Rum",
+    Recipe_Churn_Vermouth = "Make an infusion: Vermouth",
+
+    Recipe_Pour_Gin_in_Bottle = "Pour an alcohol in bottle: Gin",
+    Recipe_Pour_Vodka_in_Bottle = "Pour an alcohol in bottle: Vodka",
+    Recipe_Pour_Tequila_in_Bottle = "Pour an alcohol in bottle: Trquila",
+    Recipe_Pour_Cachaca_in_Bottle = "Pour an alcohol in bottle: Cachaca",
+    Recipe_Pour_Sake_in_Bottle = "Pour an alcohol in bottle: Sake",
+    Recipe_Pour_Rum_in_Bottle = "Pour an alcohol in bottle: Rum",
+    Recipe_Pour_Vermouth_in_Bottle = "Pour an alcohol in bottle: Vermouth",
 
 }

@@ -46,6 +46,9 @@ end
 -- 01 Темный Пустотный Эль (Strength)
 function OnEat_AlcoholDarkVoidAle(food, player, percent)
     local val = ZombRand(150,520);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Strength) <= 9 then
         if player:getPerkLevel(Perks.Strength) <= 3 then
             player:getXp():AddXP(Perks.Strength, val);
@@ -70,6 +73,9 @@ end
 -- 02 Зомби Зелье (Fitness)
 function OnEat_AlcoholZombiePotion(food, player, percent)
     local val = ZombRand(120,450);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Fitness) <= 9 then
         if player:getPerkLevel(Perks.Fitness) <= 3 then
             player:getXp():AddXP(Perks.Fitness, val);
@@ -93,7 +99,10 @@ end
 
 -- 03 Скелетный ликер (Sprinting)
 function OnEat_AlcoholSkeletonLiqueur(food, player, percent)
-    local val = ZombRand(7,12);
+    local val = ZombRand(7,11);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Sprinting) <= 9 then
         if player:getPerkLevel(Perks.Sprinting) <= 3 then
             player:getXp():AddXP(Perks.Sprinting, val);
@@ -118,6 +127,9 @@ end
 -- 04 Шепот Тьмы (Lightfoot)
 function OnEat_AlcoholWhisperOfDarkness(food, player, percent)
     local val = ZombRand(6,10);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Lightfoot) <= 9 then
         if player:getPerkLevel(Perks.Lightfoot) <= 3 then
             player:getXp():AddXP(Perks.Lightfoot, val);
@@ -142,6 +154,9 @@ end
 -- 05 Апокалиптический Экстракт (Nimble)
 function OnEat_AlcoholApocalypticExtract(food, player, percent)
     local val = ZombRand(7,9);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Nimble) <= 9 then
         if player:getPerkLevel(Perks.Nimble) <= 3 then
             player:getXp():AddXP(Perks.Nimble, val);
@@ -166,6 +181,9 @@ end
 -- 06 Ткань Скверны (Sneak)
 function OnEat_AlcoholFelcloth(food, player, percent)
     local val = ZombRand(8,10);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Sneak) <= 9 then
         if player:getPerkLevel(Perks.Sneak) <= 3 then
             player:getXp():AddXP(Perks.Sneak, val);
@@ -190,6 +208,9 @@ end
 -- 07 Ликантропский смузи (Axe)
 function OnEat_AlcoholLycanthropeSmoothie(food, player, percent)
     local val = ZombRand(12,15);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Axe) <= 9 then
         if player:getPerkLevel(Perks.Axe) <= 3 then
             player:getXp():AddXP(Perks.Axe, val);
@@ -214,6 +235,9 @@ end
 -- 08 Ветреный Вампир (Blunt)
 function OnEat_AlcoholWindyVampire(food, player, percent)
     local val = ZombRand(10,14);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Blunt) <= 9 then
         if player:getPerkLevel(Perks.Blunt) <= 3 then
             player:getXp():AddXP(Perks.Blunt, val);
@@ -238,6 +262,9 @@ end
 -- 09 Живой Мертвец Грог (SmallBlunt)
 function OnEat_AlcoholLivingDeadGrog(food, player, percent)
     local val = ZombRand(8,16);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.SmallBlunt) <= 9 then
         if player:getPerkLevel(Perks.SmallBlunt) <= 3 then
             player:getXp():AddXP(Perks.SmallBlunt, val);
@@ -262,6 +289,9 @@ end
 -- 10 Проклятый Доктор (LongBlade)
 function OnEat_AlcoholCursedDoctor(food, player, percent)
     local val = ZombRand(10,15);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.LongBlade) <= 9 then
         if player:getPerkLevel(Perks.LongBlade) <= 3 then
             player:getXp():AddXP(Perks.LongBlade, val);
@@ -286,6 +316,9 @@ end
 -- 11 Мрачный барьер (SmallBlade)
 function OnEat_AlcoholGrimBarrier(food, player, percent)
     local val = ZombRand(12,15);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.SmallBlade) <= 9 then
         if player:getPerkLevel(Perks.SmallBlade) <= 3 then
             player:getXp():AddXP(Perks.SmallBlade, val);
@@ -310,6 +343,9 @@ end
 -- 12 Драконье Дыхание (Spear)
 function OnEat_AlcoholDragonsBreath(food, player, percent)
     local val = ZombRand(9,17);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Spear) <= 9 then
         if player:getPerkLevel(Perks.Spear) <= 3 then
             player:getXp():AddXP(Perks.Spear, val);
@@ -334,6 +370,9 @@ end
 -- 13 Демоническая сущность (Maintenance)
 function OnEat_AlcoholDemonicEntity(food, player, percent)
     local val = ZombRand(7,15);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Maintenance) <= 9 then
         if player:getPerkLevel(Perks.Maintenance) <= 3 then
             player:getXp():AddXP(Perks.Maintenance, val);
@@ -358,6 +397,9 @@ end
 -- 14 Призрачная гончая (Woodwork)
 function OnEat_AlcoholGhostHound(food, player, percent)
     local val = ZombRand(8,18);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Woodwork) <= 9 then
         if player:getPerkLevel(Perks.Woodwork) <= 3 then
             player:getXp():AddXP(Perks.Woodwork, val);
@@ -382,6 +424,9 @@ end
 -- 15 Некромантический Напиток (Cooking)
 function OnEat_AlcoholNecromanticDrink(food, player, percent)
     local val = ZombRand(5,15);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Cooking) <= 9 then
         if player:getPerkLevel(Perks.Cooking) <= 3 then
             player:getXp():AddXP(Perks.Cooking, val);
@@ -406,6 +451,9 @@ end
 -- 16 Астральный Эликсир (Farming)
 function OnEat_AlcoholAstralElixir(food, player, percent)
     local val = ZombRand(10,20);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Farming) <= 9 then
         if player:getPerkLevel(Perks.Farming) <= 3 then
             player:getXp():AddXP(Perks.Farming, val);
@@ -430,6 +478,9 @@ end
 -- 17 Раненный Вурдалак (Doctor)
 function OnEat_AlcoholWoundedGhoul(food, player, percent)
     local val = ZombRand(8,15);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Doctor) <= 9 then
         if player:getPerkLevel(Perks.Doctor) <= 3 then
             player:getXp():AddXP(Perks.Doctor, val);
@@ -454,6 +505,9 @@ end
 -- 18 Смертельный Глоток (Electricity)
 function OnEat_AlcoholDeadlyGulp(food, player, percent)
     local val = ZombRand(8,15);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Electricity) <= 9 then
         if player:getPerkLevel(Perks.Electricity) <= 3 then
             player:getXp():AddXP(Perks.Electricity, val);
@@ -478,6 +532,9 @@ end
 -- 19 Пламенный Виски (Mechanics)
 function OnEat_AlcoholFlamingWhiskey(food, player, percent)
     local val = ZombRand(6,13);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Mechanics) <= 9 then
         if player:getPerkLevel(Perks.Mechanics) <= 3 then
             player:getXp():AddXP(Perks.Mechanics, val);
@@ -502,6 +559,9 @@ end
 -- 20 ПЛАЧУЩИЙ_ДРАКОН (Tailoring)
 function OnEat_AlcoholCryingDragon(food, player, percent)
     local val = ZombRand(8,15);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Tailoring) <= 9 then
         if player:getPerkLevel(Perks.Tailoring) <= 3 then
             player:getXp():AddXP(Perks.Tailoring, val);
@@ -526,6 +586,9 @@ end
 -- 21 Кровь дракона (MetalWelding)
 function OnEat_AlcoholDragonBlood(food, player, percent)
     local val = ZombRand(8,15);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.MetalWelding) <= 9 then
         if player:getPerkLevel(Perks.MetalWelding) <= 3 then
             player:getXp():AddXP(Perks.MetalWelding, val);
@@ -550,6 +613,9 @@ end
 -- 22 Морковный коктель (Fishing)
 function OnEat_AlcoholCarrotCocktail(food, player, percent)
     local val = ZombRand(7,12);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Fishing) <= 9 then
         if player:getPerkLevel(Perks.Fishing) <= 3 then
             player:getXp():AddXP(Perks.Fishing, val);
@@ -574,6 +640,9 @@ end
 -- 23 Полуночный мститель (Reloading)
 function OnEat_AlcoholMidnightAvenger(food, player, percent)
     local val = ZombRand(13,15);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Reloading) <= 9 then
         if player:getPerkLevel(Perks.Reloading) <= 3 then
             player:getXp():AddXP(Perks.Reloading, val);
@@ -598,6 +667,9 @@ end
 -- 24 Кровь героя (Aiming)
 function OnEat_AlcoholBloodOfHero(food, player, percent)
     local val = ZombRand(11,14);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Aiming) <= 9 then
         if player:getPerkLevel(Perks.Aiming) <= 3 then
             player:getXp():AddXP(Perks.Aiming, val);
@@ -622,6 +694,9 @@ end
 -- 25 Часовщик (Trapping)
 function OnEat_AlcoholWatchmaker(food, player, percent)
     local val = ZombRand(12,14);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     if player:getPerkLevel(Perks.Trapping) <= 9 then
         if player:getPerkLevel(Perks.Trapping) <= 3 then
             player:getXp():AddXP(Perks.Trapping, val);
@@ -646,6 +721,10 @@ end
 -- 26 Выживший (PlantScavenging)
 function OnEat_AlcoholSurvivor(food, player, percent)
     local val = ZombRand(9,12);
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
+
     if player:getPerkLevel(Perks.PlantScavenging) <= 9 then
         if player:getPerkLevel(Perks.PlantScavenging) <= 3 then
             player:getXp():AddXP(Perks.PlantScavenging, val);
@@ -669,9 +748,15 @@ end
 
 -- 27 Ночная Тень Эмриты (Random)
 function OnEat_AlcoholEmritasNightShadow(food, player, percent)
+    
+    
     local val = ZombRand(12, 20)
     local rnd = ZombRand(1,27)
     local text
+
+    if player:getStats():getDrunkenness() > 41 then
+        val = val - ((val * (player:getStats():getDrunkenness() / 100)) / 2);
+    end
     
     if rnd >= 1 and rnd <= 26 then
         local perkNames = {
@@ -706,6 +791,10 @@ function OnEat_AlcoholEmritasNightShadow(food, player, percent)
         text = perkNames[rnd]
     else
         text = "PlantScavenging"
+    end
+
+    if text == "Strength" or text == "Fitness" then
+        val = ZombRand(150,520);
     end
     
     local perkLevel = player:getPerkLevel(Perks[text])

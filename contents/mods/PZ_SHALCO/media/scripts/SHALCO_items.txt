@@ -24,7 +24,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 30,
                 HungerChange                    = 10,
                 ThirstChange                    = -10,
                 UnhappyChange                   = -20,
@@ -59,7 +58,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 20,
                 HungerChange                    = 5,
                 ThirstChange                    = -5,
                 UnhappyChange                   = -15,
@@ -94,7 +92,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 25,
                 HungerChange                    = 8,
                 ThirstChange                    = -8,
                 UnhappyChange                   = -18,
@@ -129,7 +126,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 15,
                 HungerChange                    = 3,
                 ThirstChange                    = -3,
                 UnhappyChange                   = -12,
@@ -164,7 +160,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 35,
                 HungerChange                    = 12,
                 ThirstChange                    = -12,
                 UnhappyChange                   = -25,
@@ -199,7 +194,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 22,
                 HungerChange                    = 7,
                 ThirstChange                    = -7,
                 UnhappyChange                   = -17,
@@ -234,7 +228,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 18,
                 HungerChange                    = 6,
                 ThirstChange                    = -6,
                 UnhappyChange                   = -14,
@@ -269,7 +262,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 28,
                 HungerChange                    = 10,
                 ThirstChange                    = -10,
                 UnhappyChange                   = -22,
@@ -304,7 +296,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 40,
                 HungerChange                    = 15,
                 ThirstChange                    = -15,
                 UnhappyChange                   = -30,
@@ -339,7 +330,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 25,
                 HungerChange                    = 8,
                 ThirstChange                    = -8,
                 UnhappyChange                   = -20,
@@ -374,7 +364,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 33,
                 HungerChange                    = 11,
                 ThirstChange                    = -11,
                 UnhappyChange                   = -23,
@@ -409,7 +398,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 26,
                 HungerChange                    = 9,
                 ThirstChange                    = -9,
                 UnhappyChange                   = -19,
@@ -444,7 +432,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 21,
                 HungerChange                    = 6,
                 ThirstChange                    = -6,
                 UnhappyChange                   = -15,
@@ -479,7 +466,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 31,
                 HungerChange                    = 10,
                 ThirstChange                    = -10,
                 UnhappyChange                   = -21,
@@ -514,7 +500,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 19,
                 HungerChange                    = 7,
                 ThirstChange                    = -7,
                 UnhappyChange                   = -17,
@@ -549,7 +534,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 28,
                 HungerChange                    = 9,
                 ThirstChange                    = -9,
                 UnhappyChange                   = -20,
@@ -584,7 +568,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 23,
                 HungerChange                    = 8,
                 ThirstChange                    = -8,
                 UnhappyChange                   = -18,
@@ -619,7 +602,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 34,
                 HungerChange                    = 11,
                 ThirstChange                    = -11,
                 UnhappyChange                   = -22,
@@ -654,7 +636,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 34,
                 HungerChange                    = 11,
                 ThirstChange                    = -11,
                 UnhappyChange                   = -22,
@@ -689,7 +670,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 5,
                 HungerChange                    = 15,
                 ThirstChange                    = -5,
                 UnhappyChange                   = -5,
@@ -724,7 +704,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 5,
                 HungerChange                    = 15,
                 ThirstChange                    = -5,
                 UnhappyChange                   = -5,
@@ -759,7 +738,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 5,
                 HungerChange                    = 15,
                 ThirstChange                    = -5,
                 UnhappyChange                   = -5,
@@ -794,7 +772,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 25,
                 HungerChange                    = 8,
                 ThirstChange                    = -8,
                 UnhappyChange                   = -18,
@@ -829,7 +806,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 40,
                 HungerChange                    = 15,
                 ThirstChange                    = -15,
                 UnhappyChange                   = -30,
@@ -864,7 +840,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 40,
                 HungerChange                    = 15,
                 ThirstChange                    = -15,
                 UnhappyChange                   = -30,
@@ -899,7 +874,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 18,
                 HungerChange                    = 6,
                 ThirstChange                    = -6,
                 UnhappyChange                   = -14,
@@ -934,7 +908,6 @@ module SHALCO {
                 Packaged                        = TRUE,
                 CantBeFrozen                    = TRUE,
 
-                FatigueChange                   = 17,
                 HungerChange                    = 4,
                 ThirstChange                    = -4,
                 UnhappyChange                   = -16,

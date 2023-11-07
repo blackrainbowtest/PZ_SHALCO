@@ -1,0 +1,104 @@
+/* ________________________________07.11.2023____________________________________________ */
+/* _______________https://github.com/blackrainbowtest/PZ_SHALCO__________________________ */
+
+module SHALCO {
+/*___________________ИМПОРТ_БАЗОВОГО_КЛАССА___________________*/
+    imports
+    {
+        Base, SapphCooking
+    }
+
+    recipe Pour Gin in Bottle
+    {
+        Churn_Gin,
+        destroy GinEmpty,
+        
+        Result              : GinFull,
+        Time                : 80.0,
+        Category            : Cooking,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,
+        OnCreate:Recipe.OnCreate.ReplacingChurn,
+    }
+
+    recipe Pour Vodka in Bottle
+    {
+        Churn_Vodka,
+        destroy VodkaEmpty,
+        
+        Result              : VodkaFull,
+        Time                : 80.0,
+        Category            : Cooking,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,
+        OnCreate:Recipe.OnCreate.ReplacingChurn,
+    }
+
+    recipe Pour Tequila in Bottle
+    {
+        Churn_Tequila,
+        destroy GinEmpty,
+        
+        Result              : TequilaFull,
+        Time                : 80.0,
+        Category            : Cooking,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,
+        OnCreate:Recipe.OnCreate.ReplacingChurn,
+    }
+
+    recipe Pour Cachaca in Bottle
+    {
+        Churn_Cachaca,
+        destroy CachacaEmpty,
+        
+        Result              : CachacaFull,
+        Time                : 80.0,
+        Category            : Cooking,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,
+        OnCreate:Recipe.OnCreate.ReplacingChurn,
+    }
+
+
+    recipe Pour Sake in Bottle
+    {
+        Churn_Sake,
+        destroy SakeEmpty,
+        
+        Result              : SakeFull,
+        Time                : 80.0,
+        Category            : Cooking,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,
+        OnCreate:Recipe.OnCreate.ReplacingChurn,
+    }
+
+    recipe Pour Rum in Bottle
+    {
+        Churn_Rum,
+        destroy RumEmpty,
+        
+        Result              : RumFull,
+        Time                : 80.0,
+        Category            : Cooking,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,
+        OnCreate:Recipe.OnCreate.ReplacingChurn,
+    }
+
+    recipe Pour Vermouth in Bottle
+    {
+        Churn_Vermouth,
+        destroy WineEmpty/WineEmpty2,
+        
+        Result              : Vermouth,
+        Time                : 80.0,
+        Category            : Cooking,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        Sound               : CupFill,
+        OnCreate:Recipe.OnCreate.ReplacingChurn,
+    }
+    
+
+}

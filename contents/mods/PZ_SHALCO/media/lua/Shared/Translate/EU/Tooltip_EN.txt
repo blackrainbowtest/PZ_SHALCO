@@ -27,4 +27,13 @@ Tooltip_EN = {
     Tooltip_AlcoholWatchmaker = "By drinking the drink you will receive an increase in experience Trapping",
     Tooltip_AlcoholSurvivor = "By drinking the drink you will receive an increase in experience PlantScavenging",
     Tooltip_AlcoholEmritasNightShadow = "By drinking the drink you will receive an increase in Random experience",
+
+
+    Tooltip_Churn_Gin = "After your efforts, you were able to get a ready-made gin infusion",
+    Tooltip_Churn_Vodka = "After your efforts, you were able to get a ready-made vodka infusion",
+    Tooltip_Churn_Tequila = "After your efforts, you were able to get a ready-made tequila infusion",
+    Tooltip_Churn_Cachaca = "After your efforts, you were able to get a ready-made cachaca infusion",
+    Tooltip_Churn_Sake = "After your efforts, you were able to get a ready-made sake infusion",
+    Tooltip_Churn_Rum = "After your efforts, you were able to get a ready-made rum infusion",
+    Tooltip_Churn_Vermouth = "After your efforts, you were able to get a ready-made vermouth infusion",
 }

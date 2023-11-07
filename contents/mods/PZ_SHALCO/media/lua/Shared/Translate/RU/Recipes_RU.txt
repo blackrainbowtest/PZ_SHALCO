@@ -27,4 +27,19 @@ Recipes_RU {
     Recipe_Make_SurvivorFull = "Создать коктейль: Выживший",
     Recipe_Make_EmritasNightShadowFull = "Создать алкоголь: Ночная Тень Эмриты"
 
+    Recipe_Churn_Gin = "Приготовить отвар: Джин",
+    Recipe_Churn_Vodka = "Приготовить отвар: Водка",
+    Recipe_Churn_Tequila = "Приготовить отвар: Текила",
+    Recipe_Churn_Cachaca = "Приготовить отвар: Кашаса",
+    Recipe_Churn_Sake = "Приготовить отвар: Саке",
+    Recipe_Churn_Rum = "Приготовить отвар: Ром",
+    Recipe_Churn_Vermouth = "Приготовить отвар: Вермут",
+
+    Recipe_Pour_Gin_in_Bottle = "Налить алкоголь в бутылку: Джин",
+    Recipe_Pour_Vodka_in_Bottle = "Налить алкоголь в бутылку: Водка",
+    Recipe_Pour_Tequila_in_Bottle = "Налить алкоголь в бутылку: Текила",
+    Recipe_Pour_Cachaca_in_Bottle = "Налить алкоголь в бутылку: Кашаса",
+    Recipe_Pour_Sake_in_Bottle = "Налить алкоголь в бутылку: Саке",
+    Recipe_Pour_Rum_in_Bottle = "Налить алкоголь в бутылку: Ром",
+    Recipe_Pour_Vermouth_in_Bottle = "Налить алкоголь в бутылку: Вермут",
 }

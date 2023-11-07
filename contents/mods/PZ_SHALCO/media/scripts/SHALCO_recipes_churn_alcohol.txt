@@ -1,0 +1,138 @@
+/* ________________________________07.11.2023____________________________________________ */
+/* _______________https://github.com/blackrainbowtest/PZ_SHALCO__________________________ */
+
+module SHALCO {
+/*___________________ИМПОРТ_БАЗОВОГО_КЛАССА___________________*/
+    imports
+    {
+        Base, SapphCooking
+    }
+    
+    recipe Churn Gin
+        {
+            destroy ButterChurn,
+            Corn=1,
+
+            Result          : Churn_Gin,
+            Time            : 1100.0,
+            Category 		: Cooking,
+            OnGiveXP        : Recipe.OnGiveXP.Cooking3,
+            Sound           : ChurnWood,
+            SkillRequired   : Cooking=4,
+            AnimNode        : Sapph_ButterChurn,
+            StopOnWalk      : true,
+            Prop1:Cooking_ButterChurnBot,
+            Prop2:Cooking_ButterChurnTop,
+        }
+    
+    recipe Churn Vodka
+        {
+            destroy ButterChurn,
+            Apple=1,
+            [Recipe.GetItemTypes.SapphCookingSugar];2,
+
+            Result          : Churn_Vodka,
+            Time            : 1100.0,
+            Category 		: Cooking,
+            OnGiveXP        : Recipe.OnGiveXP.Cooking3,
+            Sound           : ChurnWood,
+            SkillRequired   : Cooking=4,
+            AnimNode        : Sapph_ButterChurn,
+            StopOnWalk      : true,
+            Prop1:Cooking_ButterChurnBot,
+            Prop2:Cooking_ButterChurnTop,
+        }
+    recipe Churn Tequila
+        {
+            destroy ButterChurn,
+            Avocado=1,
+
+            Result          : Churn_Tequila,
+            Time            : 1100.0,
+            Category 		: Cooking,
+            OnGiveXP        : Recipe.OnGiveXP.Cooking3,
+            Sound           : ChurnWood,
+            SkillRequired   : Cooking=4,
+            AnimNode        : Sapph_ButterChurn,
+            StopOnWalk      : true,
+            Prop1:Cooking_ButterChurnBot,
+            Prop2:Cooking_ButterChurnTop,
+        }
+
+    recipe Churn Cachaca
+        {
+            destroy ButterChurn,
+            Pear=1,
+            [Recipe.GetItemTypes.SapphCookingSugar];2,
+
+            Result          : Churn_Cachaca,
+            Time            : 1100.0,
+            Category 		: Cooking,
+            OnGiveXP        : Recipe.OnGiveXP.Cooking3,
+            Sound           : ChurnWood,
+            SkillRequired   : Cooking=4,
+            AnimNode        : Sapph_ButterChurn,
+            StopOnWalk      : true,
+            Prop1:Cooking_ButterChurnBot,
+            Prop2:Cooking_ButterChurnTop,
+        }
+
+    recipe Churn Sake
+        {
+            destroy ButterChurn,
+            [Recipe.GetItemTypes.SapphCookingRiceBowl];2,
+            [Recipe.GetItemTypes.SapphCookingSugar];2,
+
+            Result          : Churn_Sake,
+            Time            : 1100.0,
+            Category 		: Cooking,
+            OnGiveXP        : Recipe.OnGiveXP.Cooking3,
+            Sound           : ChurnWood,
+            SkillRequired   : Cooking=4,
+            AnimNode        : Sapph_ButterChurn,
+            StopOnWalk      : true,
+            Prop1:Cooking_ButterChurnBot,
+            Prop2:Cooking_ButterChurnTop,
+        }
+
+    recipe Churn Rum
+        {
+            destroy ButterChurn,
+            Honey=1,
+            [Recipe.GetItemTypes.SapphCookingSugar];2,
+
+            Result          : Churn_Rum,
+            Time            : 1100.0,
+            Category 		: Cooking,
+            OnGiveXP        : Recipe.OnGiveXP.Cooking3,
+            Sound           : ChurnWood,
+            SkillRequired   : Cooking=4,
+            AnimNode        : Sapph_ButterChurn,
+            StopOnWalk      : true,
+            Prop1:Cooking_ButterChurnBot,
+            Prop2:Cooking_ButterChurnTop,
+        }
+
+    recipe Churn Vermouth
+        {
+            destroy ButterChurn,
+            Grapes=1,
+            [Recipe.GetItemTypes.SapphCookingSugar];2,
+            Lemon=1,
+
+            Result          : Churn_Vermouth,
+            Time            : 1100.0,
+            Category 		: Cooking,
+            OnGiveXP        : Recipe.OnGiveXP.Cooking3,
+            Sound           : ChurnWood,
+            SkillRequired   : Cooking=4,
+            AnimNode        : Sapph_ButterChurn,
+            StopOnWalk      : true,
+            Prop1:Cooking_ButterChurnBot,
+            Prop2:Cooking_ButterChurnTop,
+        }
+
+
+
+}
+

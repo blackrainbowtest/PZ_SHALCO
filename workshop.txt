@@ -1,10 +1,29 @@
 version=1
-id=
+id=3073622069
 title=SHELTER ALCOHOL MOD
 
 description=[h1][EN]Adds several varieties of alcohol for the shelter bar.[/h1]
-description=[h1][RU]Добавляет несколько разновидностей алкоголя для бара шелтера.[/h1]
-description=[h1][UK]Додає кілька різновидів алкоголю для бару шелтеру.[/h1]
-
+description=
+description=At the moment there are 27 unique alcoholic drinks.
+description=
+description=26 alcoholic drinks give experience for corresponding perks, and 27 drinks give experience for a random perk.
+description=
+description=
+description=[h1]The code for this mod can be found on my github.[/h1]
+description=[url=https://github.com/blackrainbowtest/PZ_SHALCO][img]https://steamuserimages-a.akamaihd.net/ugc/2179239408539739936/BDD2C884759B7AEC99B1028F3735CE58DE84C769/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img][/url]
+description=
+description=
+description=[h1]My other mod.[/h1]
+description=https://steamcommunity.com/sharedfiles/filedetails/?id=3050914195
+description=
+description=
+description=[h1]PLANS[/h1]
+description=
+description=[b]It is planned to add in the future a restriction on gaining experience while not sober. The character will receive less experience depending on the degree of intoxication.[/b]
+description=
+description=It is also planned to add temporary bonuses to the character’s abilities after drinking alcohol (increasing stamina, running speed, etc.) for a while.
+description=
+description=[h3]Journal spawning is currently disabled. Drinks can be prepared by the player who has read the magazine. (Temporarily disabled to avoid abuse from players)[/h3]
+description=
 tags=Build 41;Food;Items
 visibility=public
