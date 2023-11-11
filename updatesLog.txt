@@ -6,3 +6,11 @@ from drinks will decrease depending on the degree of intoxication of the player.
 Added crafting of alcoholic drinks. At this stage, all server players will be able to craft.
 When crafting, the amount of drink remaining in Churn will be taken into account and the finished 
 alcohol will have the corresponding indicators.
+
+Changes 10.11.2023
+
+The recipe for preparing alcohol has been changed. Now any bottle can be used in any recipe.
+
+                SkillTrained                    = Aiming,
+                LvlSkillTrained                 = 1,
+                NumLevelsTrained                = 2,

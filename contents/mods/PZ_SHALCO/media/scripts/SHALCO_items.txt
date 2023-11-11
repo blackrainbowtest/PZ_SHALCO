@@ -930,6 +930,4 @@ module SHALCO {
                 ReplaceOnDeplete                = SapphCooking.CocktailGlass,
                 OnEat                           = OnEat_AlcoholEmritasNightShadow
             }
-
-
 }

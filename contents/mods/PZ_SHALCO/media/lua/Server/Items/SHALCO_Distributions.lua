@@ -12,13 +12,13 @@ LootRarity.ExtraRare = 0.01
 local suburbsDistribution = {
     -- общее
     all = {
-        -- инвентарь зомби женщин
+        -- Zombie female inventory
         inventoryfemale = {
             items = {
-                -- "iMeds.BismuthSubsalicylatePack", LootRarity.ExtraRare,
+                -- "SHALCO.itemName", LootRarity.ExtraRare,
             }
         },
-        -- инвентарь зомби мужчин
+        -- Zombie male inventory
         inventorymale = {
             items = {
             }
