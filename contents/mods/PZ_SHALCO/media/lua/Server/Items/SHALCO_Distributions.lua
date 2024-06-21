@@ -21,8 +21,14 @@ local suburbsDistribution = {
         -- Zombie male inventory
         inventorymale = {
             items = {
+                -- "SHALCO.itemName", LootRarity.ExtraRare,
             }
         },
+        Outfit_Farmer = {
+            items = {
+                -- "SHALCO.itemName", LootRarity.ExtraRare,
+            }
+        }
     },
     -- большая походная сумка
     Bag_BigHikingBag = {
