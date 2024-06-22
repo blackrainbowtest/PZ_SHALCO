@@ -1,0 +1,44 @@
+module SHALCO {
+/*___________________ИМПОРТ_БАЗОВОГО_КЛАССА___________________*/
+    imports
+    {
+        Base, SapphCooking
+    }
+
+/*___________________ПРЕДМЕТЫ:_АЛКОГОЛЬНЫЕ_НАПИТКИ_ДАЮЩИЕ_ВРЕМЕННЫЕ_БУСТЫ___________________*/
+        
+    /*___________________ 01_ВРЕМЕННОЕ_УВЕЛИЧЕНИЕ_СКОРОСТИ_БЕГА ___________________*/
+        item AlcoholSpeedRunner {
+            Type                            = Food,
+            DisplayName                     = Dark void ale,
+            Icon                            = DarkVoidAleFull,
+            Weight                          = 0.4,
+            RainFactor                      = 0.1,
+            UseDelta                        = 0.5,
+            Packaged                        = TRUE,
+            CantBeFrozen                    = TRUE,
+
+            HungerChange                    = 10,
+            ThirstChange                    = -10,
+            UnhappyChange                   = -20,
+            Calories                        = 2000,
+            Carbohydrates                   = 0,
+            Lipids                          = 0,
+            Proteins                        = 0,
+            StressChange                    = -10,
+            Tooltip                         = Tooltip_AlcoholSpeedRunner,
+            
+            Alcoholic                       = true,
+            AlcoholPower                    = 1,
+            EatType                         = Mug,
+            StaticModel                     = AlcoholDarkVoidAle_Hand,
+            WorldStaticModel                = AlcoholDarkVoidAle_Ground,
+            CustomEatSound                  = DrinkingFromBottleGlass,
+            CustomContextMenu               = Drink,
+            UseWhileEquipped                = FALSE,
+            ReplaceOnUse                    = SapphCooking.CocktailGlass,
+            ReplaceOnDeplete                = SapphCooking.CocktailGlass,
+            OnEat                           = OnEat_AlcoholSpeedRunner
+        }
+
+}
